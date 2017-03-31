@@ -13,7 +13,7 @@ public class Person {
 		return "Ich bin " + name + " " + prename;
 	}
 
-	public void Ausgabe() {
+	public void print() {
 		System.out.println(typ());
 	}
 }

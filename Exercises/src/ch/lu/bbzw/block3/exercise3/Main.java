@@ -26,7 +26,7 @@ public class Main {
         allePersonen.add(new Minigolfer("Franz", "von Hinten"));
 
         for (Person pe : allePersonen)
-            pe.Ausgabe();
+            pe.print();
 
         TimeUnit.SECONDS.sleep(5);
         Meteo.setWeather("Regen");
